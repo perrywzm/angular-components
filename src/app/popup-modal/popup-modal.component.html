@@ -1,0 +1,14 @@
+<div class="close-icon-container">
+  <fa-icon size="fa-sm" [icon]="faTimes" class="close-icon"></fa-icon>
+</div>
+<div class="popup-modal-main-container">
+  <h1 mat-dialog-title class="popup-modal-base-title">{{ title }}</h1>
+  <div mat-dialog-content class="content-container">
+    123
+    <ng-content></ng-content>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-raised-button (click)="onNoClick()">Test</button>
+    <button mat-raised-button>Ok</button>
+  </div>
+</div>

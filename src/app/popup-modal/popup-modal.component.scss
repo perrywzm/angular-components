@@ -1,0 +1,32 @@
+.popup-modal-main-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 40px 23px 23px; // Additional top padding is for the close button
+}
+
+.popup-modal-base-title {
+  color: red;
+}
+
+.content-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.close-icon-container {
+  font-size: 14px;
+  position: relative;
+}
+
+.close-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: 0 0;
+  transform: scale(1.4545);
+}
+
+.mat-dialog-container {
+  padding: 20px !important;
+}
